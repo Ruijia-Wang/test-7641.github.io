@@ -1,0 +1,279 @@
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) --><!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Mahdi Roozbahani">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="CX4240: Introduction to Computational Data Analysis (2019 Spring) Course Information  Lecture time: Mons and Weds, 4:30pm-5:45pm Location: Klaus 1447 Instructor: M. Mahdi Roozbahani and Chao Zhang Teaching Assistant: Hanjun Dai (hanjundai@gatech.edu) and Wendi Ren (wren44@gatech.edu) Piazza: https://piazza.com/class/jqeo3f7s5vc426  Course Overview This course introduces techniques for computational data analysis, with an emphasis on machine learning algorithms and their applications to real-world data. We will investigate the following question: how to extract useful knowledge from data computationally for decision making and task support?">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://chaozhang.org/course/19s-cx4240/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <link rel="stylesheet" href="css/custom.css">
+<style>
+table { border-collapse:collapse; }
+table thead th { border-bottom: 1px solid #000; }
+table tbody td { border-left: 1px solid #000;border-right: 1px solid #000; }
+table tbody tr { font-size: large; }
+
+</style>
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-96993546-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+	Ankita Das,      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+<!--   <link rel="alternate" href="http://chaozhang.org/index.xml" type="application/rss+xml" title="Chao Zhang"> -->
+<!--   <link rel="feed" href="http://chaozhang.org/index.xml" type="application/rss+xml" title="Chao Zhang"> -->
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://chaozhang.org/course/19s-cx4240/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Mahdi Roozbahani">
+  <meta property="og:url" content="http://chaozhang.org/course/19s-cx4240/">
+  <meta property="og:title" content=" Mahdi Roozbahani">
+  <meta property="og:description" content="CX4240: Introduction to Computational Data Analysis (2019 Spring) Course Information  Lecture time: Mons and Weds, 4:30pm-5:45pm Location: Klaus 1447 Instructors: M. Mahdi Roozbahani and Chao 
+                                           Teaching Assistant: Hanjun Dai (hanjundai@gatech.edu) and Wendi Ren (wren44@gatech.edu) Piazza: https://piazza.com/class/jqeo3f7s5vc426  Course Overview This course introduces techniques for computational data analysis, with an emphasis on machine learning algorithms and their applications to real-world data. We will investigate the following question: how to extract useful knowledge from data computationally for decision making and task support?">
+  <meta property="og:locale" content="en-us">
+  
+    <title> Project Presentation - CX4240</title>
+
+</head>
+
+<p style="font-size: x-large;text-align: center;margin:20px 20px 20px 20px">Each presentation cannot exceed beyond <strong>8 minutes</strong>. If your presentation takes more than 8 minutes, you will be asked to stop the presentation at 8 minute mark. There will be <strong>3 minutes</strong> for Q/A.</p>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+<div>
+</div>
+<table class="GeneratedTable" style="height: 660px; width: 1200px;">
+<thead>
+<tr style="height: 100px;">
+<th style="width: 600px; height: 100px; text-align: center; font-size: x-large;">Title</th>
+<th style="width: 600px; height: 100px; text-align: center; font-size: x-large;">Team Members</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://nbviewer.jupyter.org/github/Youngjo-Kim/Geographic-Classification-of-Cuisine-Recipes/blob/master/Presentation-RecipeClassification_CX4240_Summer2019.ipynb" target="_blank">Geographic Classification of Cuisine Recipes</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Jinhyeun Kim, Youngjo Kim, Jianyuan Zhai</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.gatech.edu/pages/hliu422/Proof-of-Presence/" target="_blank">Proof-of-Presence: Vehicle Localization Verification Based on Single Camera in Diverse City Scenes</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Huiye Liu </td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.com/yandongluo/HousingPricePrediction" target="_blank">House Price Analysis and Prediction with Machine Learning Methods</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Yandong Luo, Xiaochen Peng, Panni Wang, Hongwu Jiang</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.com/fkarimzadeh6/CX4240_project/blob/master/README.md" target="_blank">Automatic Annotation of EEG signals for different stages of a sleep cycle using Machine Learning</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Nael Mizanur Rahman, Foroozan Karimzadeh, Sunny Heeseon Kim, Nihad Ljubuncic</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.com/hoangtung167/cx4240" target="_blank">Los Alamos National Laboratory Earthquake Prediction</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Huy Thong Nguyen, Tung Hoang,Danial Huff, Jordan Lightstone</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.com/alexsaadfalcon/dotai" target="_blank">metaGAN autoencoder for self-learning chatbot based on user responses</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Je-Hoon Michael Oh, Alex Saad-Falcon, Daoxun Sun, John Melson</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models" target="_blank">Detection of the Potential Impacts of Climate Change Based on Machine Learning Models</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Xufan Song, Anderson Whittle, Cody Pfeiffer, Jingwen Qu</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.gatech.edu/pages/nrodriguez62/CX4240/" target="_blank">Differentiation between benign tumors and cancers for breast cells</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Rahul Rameshbabu, Nicolas Rodriguez</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://gusmaogabriels.github.io/invNeuralODE/invANNODE_overview.slides.html" target="_blank">Solving ODEs in Chemical Kinetics Using Artificial Neural Networks</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Gabriel S. Gusmao, Zhenzi Yu, Nicole (Yuge) Hu</td>
+</tr>
+<tr style="height: 60px;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://gitpeck.github.io/CX4240_project/" target="_blank">A Comparison of Supervised Learning Algorithms for Wine Quality Prediction</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Abhilasha Saroj, Ogulcan Canbek, Renee Rios, Yi Li</td>
+</tr>
+<tr style="height: 60px; border-bottom: 1px solid #000;">
+<td style="width: 600px; height: 60px; text-align: center;"><a href="https://github.com/cchang373/CX_4240_Project/blob/master/CX_4240_project.ipynb" target="_blank">Changing the Game: Clustering Basketball and Predicting Position</a></td>
+<td style="width: 600px; height: 60px; text-align: center;">Yimeng Lyu, Chaoyi Chang, Andrew Tricker</td>
+</tr>
+
+
+</tbody>
+</table>
+<!-- Codes by Quackit.com -->
+<p>&nbsp;</p>
+
+
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>

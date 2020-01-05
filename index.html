@@ -1,0 +1,964 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Mahdi Roozbahani">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://chaozhang.org/course/19s-cx4240/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <link rel="stylesheet" href="css/custom.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-96993546-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+<!--   <link rel="alternate" href="http://chaozhang.org/index.xml" type="application/rss+xml" title="Chao Zhang"> -->
+<!--   <link rel="feed" href="http://chaozhang.org/index.xml" type="application/rss+xml" title="Chao Zhang"> -->
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://chaozhang.org/course/19s-cx4240/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Mahdi Roozbahani">
+  <meta property="og:url" content="https://cse.gatech.edu/people/mahdi-roozbahani">
+  <meta property="og:title" content=" Mahdi Roozbahani">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  
+
+  <title> Mahdi Roozbahani</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Mahdi Roozbahani</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+
+  
+
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <h1></h1>
+
+      
+      <div class="article-style" itemprop="articleBody">
+
+<h2 id="cx4240-introduction-to-computational-data-analysis-2019-spring">CS 4641/7641: Machine Learning (Spring 2020)</h2>
+
+<h3 id="course-information">Course Information</h3>
+
+<ul>
+<li><strong>Lecture time</strong>: Tuesdays and Thursdays, 9:30am-10:45am</li>
+<li><strong>Location</strong>: College of Business 100</li>
+<li><strong>Piazza</strong>: <a href="https://piazza.com/class/k4s2mtkzrlty2" target="_blank">https://piazza.com/class/k4s2mtkzrlty2</a></li>
+</ul>
+
+<figure>
+    <img class="imageTitle" src="https://www.dropbox.com/s/suzipqv6zttgxdi/mroozbahani.jpg?raw=1" style="height: 120px;"/> 
+    <figcaption> <strong>Instructor</strong>:<br><a href="https://www.cse.gatech.edu/people/mahdi-roozbahani" target="_blank">Mahdi Roozbahani</a></figcaption>
+</figure>
+<div></div>
+<figure>
+    <img class="imageTitle" src="profile/ruijia.png" style="height: 100px;"/> 
+    <figcaption><strong>Head TA</strong>:<br> Ruijia Wang <br> (rwang@gatech.edu)</figcaption>
+</figure>
+<div></div> 
+<figure>
+    <img class="imageTitle" src="profile/jb.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Jayanta Bhowmick <br> (jayantabhowmick@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/sk.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Shreeshaa Kulkarni <br> (shrek@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/rb.jpg" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Rodrigo Borela <br> (rborelav@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/nr.jpg" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Nimisha Roy <br> (nroy9@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/kt.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br>Kevin Tynes <br>(kdtynes@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/kc.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Kunal Chawla <br> (kunalchawla@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/sc.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Shalini Chaudhuri <br> (shalini.chaudhuri@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/su.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Shubhangi Upasani <br> (shubhangi.upasani@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/txu.jpg" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Tongtong Xu <br> (txu68@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/yzhao.jpg" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Yue Zhao <br> (yzhao360@gatech.edu)</figcaption>
+</figure>
+<figure>
+    <img class="imageTitle" src="profile/dz.png" style="height: 100px;"/> 
+    <figcaption><strong>TA</strong>:<br> Danrong Zhang <br> (dzhang373@gatech.edu)</figcaption>
+</figure>
+
+
+
+
+
+
+
+
+<h3 id="course-overview">Course Overview</h3>
+
+<p>This course introduces techniques in machine learning with an
+emphasis on <em>algorithms and their applications to real-world
+data</em>. We will investigate the following question: how to computationally extract useful
+knowledge from data for decision making and task support? We
+will focus on machine learning methods, which are organized into three parts:</p>
+
+<ol>
+<li><p><strong>Basic math for data science and machine learning</strong></p>
+
+<ul>
+<li>Linear algebra</li>
+<li>Probability and statistics</li>
+<li>Information theory</li>
+</ul></li>
+
+<li><p><strong>Unsupervised machine learning for data exploration</strong></p>
+
+<ul>
+<li>Clustering analysis</li>
+<li>Dimension reduction</li>
+<li>Kernel density estimation</li>
+</ul></li>
+
+<li><p><strong>Supervised learning for predictive data analysis</strong></p>
+
+<ul>
+<li>Tree-based models</li>
+<li>Linear classification and regression</li>
+<li>Neural networks</li>
+</ul></li>
+</ol>
+
+<p>Prerequisites for this course include 1) basic knowledge of probability,
+statistics, and linear algebra; 2) Basic programming experience in
+Python, especially Jupyter Notebook.</p>
+
+<h3 id="schedule">Schedule</h3>
+
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignment</th>
+<th>Due</th>
+<th>Readings</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>January 07, 2020</td>
+<td><a href="course/01-introduction.pdf" target="_blank">Course Overview</a>;
+<td><a href="https://piazza.com/class/k4s2mtkzrlty2" target="_blank">Piazza Signup</a></td>
+<td></td>
+<td><a href="https://policylibrary.gatech.edu/student-affairs/academic-honor-code" target="_blank">GT Honor Code</a></td>
+</tr>
+
+<tr>
+<td>January 09, 2020</td>
+<td><a href="course/02-linear-algebra.pdf" target="_blank">Math Basics: Linear Algebra</a>
+<td></td>
+<td></td>
+<td><a href="http://cs229.stanford.edu/section/cs229-linalg.pdf" target="_blank">Linear Algebra Review by Zico Kolter</a></td>
+</tr>
+
+<tr>
+<td>January 14, 2020</td>
+<td><a href="course/03-probability.pdf" target="_blank">Math Basics: Probability and Statistics</a>
+<td></td>
+<td></td>
+<td><a href="http://www.cs.cmu.edu/~./awm/tutorials/prob.html" target="_blank">Probability Theory Review by Andrew Moore</a></td>
+</tr>
+
+<tr>
+<td>January 16, 2020</td>
+<td><a href="course/04-info-theory.pdf" target="_blank">Math Basics: Information Theory</a>;
+<td>AS1 Out</td>
+<td></td>
+<td>
+<a href="http://colah.github.io/posts/2015-09-Visual-Information/" target="_blank">Visual Information Theory by Chris Olah</a></td>
+</tr>
+
+<tr>
+<td>January 21, 2020</td>
+<td><a href="course/05-tutorial-python-tools-Mahdi.ipynb" target="_blank">Data Analysis Toolbox - Part 1</a>;
+
+<td></td>
+<td></td>
+<td>
+<a href="https://www.youtube.com/watch?v=TqN-8fxYUYY" target="_blank">KKT for inequality constrained optimization</a>;
+<a href="html/fall2019/projects1.html" target="_blank">Project Presentations Fall 2019 - Part 1</a>;
+<a href="html/fall2019/projects2.html" target="_blank">Project Presentations Fall 2019 - Part 2</a>;
+<a href="html/fall2019/projects3.html" target="_blank">Project Presentations Fall 2019 - Part 3</a>;
+
+</td>
+</tr>
+
+<tr>
+<td>January 23, 2020</td>
+<td><a href="course/05-tutorial-python-tools-Mahdi.ipynb" target="_blank">Data Analysis Toolbox - Part 2</a>;
+<a href="course/05-project.pdf" target="_blank">Project Information</a>;
+</td>
+<td></td>
+<td></td>
+<td>
+<a href="https://guides.github.com/features/pages/" target="_blank">GitHub Pages</a>; <a href="https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml" target="_blank">YAML Configuration</a>;
+<a href="http://cs231n.github.io/python-numpy-tutorial/" target="_blank">NumPy Tutorial</a>; <a href="https://www.labri.fr/perso/nrougier/teaching/matplotlib/" target="_blank">Matplotlib Tutorial</a>
+<a href="https://www.darpa.mil/work-with-us/heilmeier-catechism" target="_blank">The Heilmeier Catechism</a>;
+<a href="http://cs229.stanford.edu/projects2012.html" target="_blank">Project Examples</a>;
+<a href="https://seaborn.pydata.org/" target="_blank">seaborn: statistical data visualization</a>;
+</td>
+</tr>
+
+<tr>
+<td>January 28, 2020</td>
+<td><a href="course/06-clustering.pdf" target="_blank">Clustering Analysis and K-Means</a>;
+</td>
+<td></td>
+<td></td>
+<td>
+<a href="https://towardsdatascience.com/on-the-curse-of-dimensionality-b91a3a51268" target="_blank"> Curse of dimensionality (Euclidean space example)</a>
+<a href="other/06-and-08-plot_dbscan.ipynb" target="_blank">Jupyter Notbook (Kmeans and DBSCAN)</a>;
+</td>
+</tr>
+
+<tr>
+<td>January 30, 2020</td>
+<td><a href="course/07-hierarchical-clustering.pdf" target="_blank">Hierarchical Clustering</a></td>
+<td></td>
+<td>AS1 Due</td>
+<td>
+<a href="https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec" target="_blank">Understanding the concept of Hierarchical clustering Technique</a>;
+</td>
+</tr>
+
+<tr>
+<td>February 04, 2020</td>
+<td><a href="course/08-density-clustering.pdf" target="_blank">Density-Based Clustering</a></td>
+<td>Start working on Project Proposal</td>
+<td></td>
+<td>
+<a href="https://help.github.com/en/articles/applying-for-a-student-developer-pack" target="_blank"> GitHub Student Application</a>;
+<a href="other/06-and-08-plot_dbscan.ipynb" target="_blank">Jupyter Notbook (Kmeans and DBSCAN)</a>;
+<a href="https://www.overleaf.com/edu/gatech" target="_blank">Overleaf for GT students, no kidding.</a>
+</td>
+</tr>
+
+<tr>
+<td>February 06, 2020</td>
+<td><a href="course/09-gaussian-mixture.pdf" target="_blank">Gaussian Mixture Model</a></td>
+<td>AS2 Out</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>February 11, 2020</td>
+<td><a href="course/09-gaussian-mixture.pdf" target="_blank">Gaussian Mixture Model</a>;
+<a href="course/10-clustering-evaluation.pdf" target="_blank">Evaluation of Clustering Algorithms</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>February 13, 2020</td>
+<td><a href="course/10-clustering-evaluation.pdf" target="_blank">Evaluation of Clustering Algorithms</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>February 18, 2020</td>
+<td><a href="course/11-density-estimation.pdf" target="_blank">Density Estimation</a></td>
+<td></td>
+<td>Proposal Due</td>
+<td>
+<a href="https://mathisonian.github.io/kde/" target="_blank">KDE interactive visualization </a>;
+<a href="https://stats.stackexchange.com/questions/321542/how-can-i-draw-a-value-randomly-from-a-kernel-density-estimate" target="_blank">KDE sampling </a>;
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KernelDensity.html" target="_blank">KDE SKLearn and sampling </a>;
+<a href="course/Kernel_Density_Estimation.ipynb" target="_blank">Jupyter Notebook Kernel Density Example</a>;
+</td>
+</tr>
+
+<tr>
+<td>February 20, 2020</td>
+<td><a href="course/12-dimension-reduction.pdf" target="_blank">Dimension Reduction</a></td>
+<td></td>
+<td></td>
+<td>
+<a href="https://stats.stackexchange.com/questions/229092/how-to-reverse-pca-and-reconstruct-original-variables-from-several-principal-com" target="_blank">Image reconstruction using PCA </a>;
+<a href="http://www.visiondummy.com/2014/05/feature-extraction-using-pca/" target="_blank">Feature extraction using PCA </a>;
+<a href="http://people.ciirc.cvut.cz/~hlavac/TeachPresEn/11ImageProc/15PCA.pdf" target="_blank">PCA for images </a>;
+<a href="other/pca_linear.pdf" target="_blank">PCA as linear combination of features </a>;
+<a href="other/lda.pdf" target="_blank">PCA and Linear Discriminant Analysis </a>;
+</td>
+</tr>
+
+<tr>
+<td>February 25, 2020</td>
+<td><a href="course/13-midterm-review.pdf" target="_blank">Midterm Review</a></td>
+<td></td>
+<td>AS2 Due</td>
+<td><a href="https://gatech.bncollege.com/shop/gatech/product/blue-exam-book?parentCatId=40363&imageId=722707&graphicId=A&categoryId=40493&topCatId=40351&productId=400000021188" target="_blank">BLUE EXAM BOOK just $0.7 in BARNES\& NOBLE GT</a>; 
+</td>
+</tr>
+
+<tr>
+<td>February 27, 2020</td>
+<td><strong>Midterm Exam</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+
+
+
+<tr>
+<td>March 03, 2020</td>
+<td><a href="course/14-linear-regression.pdf" target="_blank">Linear Regression</a></td>
+<td>AS3 Out</td>
+<td></td>
+<td><a href="other/regression-cmu.pdf" target="_blank">Simple Linear Regression in Matrix Format</a>;
+<a href="http://madrury.github.io/jekyll/update/statistics/2017/08/12/noisy-regression.html" target="_blank">Adding Noise to Regression Predictors</a></td>
+</tr>
+
+<tr>
+<td>March 05, 2020</td>
+<td><a href="course/15-regularized-regression.pdf" target="_blank">Regularization and Linear Regression</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>March 10, 2020</td>
+<td><a href="course/15-regularized-regression.pdf" target="_blank">Regularization and Linear Regression</a>;</br>
+<a href="course/16-logistic-regression.pdf" target="_blank">Naïve Bayes and Logistic Regression</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+
+<tr>
+<td>March 12, 2020</td>
+<td>
+<a href="course/16-logistic-regression.pdf" target="_blank">Naïve Bayes and Logistic Regression</a>;</br>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>March 17, 2020</td>
+<td><strong>No Class</strong> Spring Break </td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>March 19, 2020</td>
+<td><strong>No Class</strong> Spring Break </td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>March 24, 2020</td>
+<td>
+<a href="course/17-decision-tree.pdf" target="_blank">Decision Tree and Random Forest</a>;</br>
+<a href="course/18-ensemble-learning-randomforest.pdf" target="_blank">Ensemble Learning and Random Forest</a>;</br>
+
+<td></td>
+<td></td>
+<td><a href="other/evaluating.pdf" target="_blank">Evaluating Machine Learning Methods</a></td></td>
+</tr>
+
+
+
+<tr>
+<td>March 26, 2020</td>
+<td><a href="course/19-svm.pdf" target="_blank">Support Vector Machine</a></td>
+<td></td>
+<td></td>
+<td><a href="http://cs229.stanford.edu/notes/cs229-notes3.pdf" target="_blank">KKT and SVM</a></td>
+</tr>
+
+
+
+<tr>
+<td>March 31, 2020</td>
+<td><a href="course/20-svm-kernel.pdf" target="_blank">Kernel Method \ SVM</a></td>
+<td></td>
+<td>AS3 Due</td>
+<td></td>
+</tr>
+
+<tr>
+<td>April 02, 2020</td>
+<td><a href="course/18-neural-network.pdf" target="_blank">Neural Networks and Deep learning (Forward pass and Back propagation)</a>;  
+<a href="course/18-NN Class Notes.pdf" target="_blank">Class notes</a></td>
+<td>AS4 Out</td>
+<td></td>
+<td><a href="https://hmkcode.github.io/ai/backpropagation-step-by-step/" target="_blank">Back propagation numerical example</a>
+<a href="course/17-neural-network.pdf" target="_blank">More detailed introduction</a></td>
+</tr>
+
+<tr>
+<td>April 07, 2020</td>
+<td><a href="course/18-neural-network.pdf" target="_blank">Neural Networks and Deep learning (Forward pass and Back propagation)</a>;  
+<a href="course/18-NN Class Notes.pdf" target="_blank">Class notes</a></td>
+<td></td>
+<td></td>
+<td><a href="https://hmkcode.github.io/ai/backpropagation-step-by-step/" target="_blank">Back propagation numerical example</a>
+<a href="course/17-neural-network.pdf" target="_blank">More detailed introduction</a></td>
+</tr>
+
+<tr>
+<td>April 09, 2020</td>
+<td><a href="html/projects1.html" target="_blank">Project Presentation</a></td>
+<td></td>
+<td>All projects (GitHub links) should be submitted TBD </td>
+<td><a href="other/Scoring scheme-guidance.pdf" target="_blank">Project Scoring Guidance</a></td>
+</tr>
+
+<tr>
+<td>April 14, 2020</td>
+<td><a href="html/projects2.html" target="_blank">Project Presentation</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>April 16, 2020</td>
+<td><a href="html/projects3.html" target="_blank">Project Presentation</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td>April 21, 2020</td>
+<td><a href="course/25-course-review.pdf" target="_blank">Course Review</a></td>
+<td></td>
+<td>AS4 Due</td>
+<td></td>
+</tr>
+
+<tr>
+<td>April 23, 2020</td>
+<td><strong>No Class</strong> Reading Period</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>April 30, 2020</td>
+<td><strong>Final Exam: 11:20 AM - 2:10 PM</strong></td>
+<td></td>
+<td></td>
+<td><a href="https://registrar.gatech.edu/files/202002%20Final%20Exam%20Matrix_0.pdf" target="_blank">Exam Matrix SPring 2020</a></td>
+</tr>
+
+</table>
+
+<h3 id="office-hours-and-questions">Office Hours and Questions</h3>
+
+<ul>
+<li><p><strong>Office Hours</strong>:</p>
+
+<ul>
+<li>Instructor: Thursdays 10:45-11:45am  in Business School lobby (access to my office is not easy)</li>
+<li>Nimisha and Ruijia: Tuesdays 01:30-02:30pm</li>
+<li><p>TA Office Hours location: in Klaus building lobby at the first floor (next to room 1325)</p></li>
+
+</ul></li>
+
+<li><p><strong>Piazza</strong> will be the main place for course discussions and announcements. If you have questions, please <strong>ask it on Piazza first</strong> because 1) other students may have the same question; 2) you will get help much faster.</p></li>
+
+<li><p>If it&rsquo;s something you do not like to discuss publicly on Piazza, you can use private messaging on Piazza.</p></li>
+<li><p>Anytime you want to send a private message just to me on Piazza, please make sure to add our HEAD TA too in case I may miss your message.</p></li>
+</ul>
+
+<h3 id="grading">Grading</h3>
+
+<ul>
+<li><p><strong>Assignments (50%)</strong></p>
+
+<ul>
+<li>There will be four assignments. Each one is designed for testing your understanding of the taught algorithms. Assignments will have programming and written analysis.</li>
+<li>You will need to submit all your assignments using <strong>ipynb</strong>. In ipynb, you can use markdown text editor. <a href="https://github.com/jupyter/notebook/blob/b8e30ea84bd614a193f5233cc875440e4580d12a/docs/source/examples/Notebook/Working%20With%20Markdown%20Cells.ipynb" target="_blank"> Here is a quick guideline how to use Markdown in ipynb</a>.</li>
+<li>You are required to use Markdown and Latex for the written questions.</li>
+<li>All assignments follow the &ldquo;no-late&rdquo; policy. Assignments received after the due time will receive <strong>zero credit.</strong></li>
+<li>There are some bonus questions in assignments for <strong>Undergrad</strong> students. The bonus questions are required to be answered for all <strong>Grad</strong> students and they are not considered as bonus points.</li>
+<li>All students are expected to follow the <a href="http://policylibrary.gatech.edu/student-affairs/academic-honor-code" target="_blank">Georgia Tech Academic Honor Code</a>.</li>
+<li>You can easily export your Jupyter Notebook to a Python file and import that to your desired python IDE to debug your code for assignments.</li>
+<li>You are not allowed to share any assignment codes or answers with other students whatsoever. Piazza is the best place to have discussion regarding assignments. Discussions are just for the better understanding of questions and should not directly answer the questions. </li>
+
+</ul>
+
+<li><p><strong>Project Proposal (5%)</strong></p>
+
+<ul>
+<li>A project proposal should be just one page pdf (less than 500 words single spaced)</li>
+<li>A project proposal should include:
+    <ul> 
+	<li>Introduction/Background </li>
+	<li>Methods </li>
+	<li>Potential results </li>
+	<li>Discussion </li>
+	<li>At least three references (preferably peer reviewed) </li>
+	</ul>
+</li>
+<li>A checkpoint to make sure you are working on a proper machine learning related project.</li>
+</ul>
+
+<li><p><strong>Project (20%)</strong></p>
+
+<ul>
+<li>You are expected to complete a project on machine learning with real-life data. Your project needs to be clear about 1) the data you are using; 2) the problem you are attempting to solve; 3) the method you are using; 4) the results and conclusion you attain.</li>
+<li>You will need to turn in a <strong>GitHub page</strong> for your project. The project presentation and report must be combined into one deliverable using a <strong>GitHub page</strong>. For the project presentation, you just need to scroll down on your GitHub page when you present your project (make sure you have visible images and graph).</li>
+<li>Each project needs to be completed in a team of 5 people (you will be forming your team on your own. In case you can't find any team, we will randomly assign you a team). Team members need to clearly claim their contributions in the project report.</li>
+<li>Each presentation cannot exceed beyond <strong>N/A minutes</strong>. If your presentation takes more than N/A minutes, you will be asked to stop the presentation at N/A minute mark. There will be <strong>N/A minute</strong> for Q/A.</li>
+<li> There will be N/A judges who will grade your presentations</li>
+<li> Refer to <a href="other/Project Guidance.pdf" target="_blank">Project hints</a> for your project's template, creating GitHub page, and also some general hints to improve the accuracy of your predictive model.</li>
+<li> If you are in a <strong>Grad students team</strong>, you are required to have both unsupervised and supervised learning in your project.</li>
+<li> <a href="https://colab.research.google.com/notebooks/welcome.ipynb" target="_blank">Google colaboratory</a>  allows free access to run your Jupyter Notebook. I strongly suggest to use it for your project, specially for teams that are going to employ Deep Learning.</li>
+</ul>
+
+<li><p><strong>Class participation (5%)</strong></p>
+
+<ul>
+<li>Your class participation score will be graded based on attendance and possibly in-class quizzes. For some lectures, I will take attendance using CANVAS.</li>
+<li>Participation in class discussions (including asking relevant questions in class, volunteering to answer questions on Piazza) will be considered when determining your final grade. It will be especially useful when you are right on the edge of two letter grades.</li>
+</ul></li>
+
+ <li><p><strong>Midterm Exam (10%)</strong></p>
+
+<ul>
+<li>The midterm exam will only cover the math and probability and un-supervised learning parts.</li>
+<li>The midterm exam will take place the regular class time slot.</li>
+<li>The midterm exam will be a written and open-book exam. No electronic material can be used except calculator. Only paper material can be used in the exam (books, printed notes, etc). It would be better if you prepare a one or two page cheatsheet for yourself. </li>
+<li>There will be no make-up exams. You will get zero credit for your missed midterm exam.</li>
+<li>Taking the exam is required in order to receive a letter grade for this course. Students who fail this requirement will receive an Incomplete grade on their transcript. </li>
+</ul></li>
+
+<li><p><strong>Final Exam (10%)</strong></p>
+
+<ul>
+<li>The final exam will only cover the supervised learning part.</li>
+<li>The final exam will be at assigened date/time for this class.</li>
+<li>The final exam will be a written and open-book exam. No electronic material can be used except calculator. Only paper material can be used in the exam (books, printed notes, etc). It would be better if you prepare a one or two page cheatsheet for yourself (let's save some trees). </li>
+<li>Again, there will be no make-up exams. You will get zero credit for your missed final exam.</li>
+<li>Taking the exam is required in order to receive a letter grade for this course. Students who fail this requirement will receive an Incomplete grade on their transcript. </li>
+</ul></li>
+
+<li><p><strong>Bonus points</strong></p>
+
+<ul>
+<li><strong>About Bonus points:</strong> Bonus points will be counted to always be beneficial for your final grade. What do I mean by that? it means that if for some reasons I may need to curve the grades, bonus points will be applied to your grade after curving not before curving. </li>
+<li><strong>Undergrads and grads:</strong> Piazza has statistics which give us many measurements regarding how much a student has been involved on Piazza's activities such as viewing posts, answering questions, asking questions and so on. Not only we use this to account for a minor part of the Class Participation score (in total it is %5), we will use the statistics to give students bonus points. Bonus points will be applied to students who answer the other students' questions correctly. At the end of the semester, we will define a minimum and maximum number of involvement considering all the students, and based on those, some students will receive at most %3 bonus points. It is possible to receive less than 3% bonus based on your activities on Piazza. </li>
+<li><strong>Undergrads:</strong> As you all know, we have bonus points for hws. Bonus points will be different for different hws.For example, hw 1 may have 30 bonus points, hw 2 may have 20  bonus points and so on. If you receive all the bonus points for all your hws, we will add %5 to your final grade.</li>
+
+</ul></li>
+</ul>
+
+<p><strong>Dataset Ideas (may need API, or scraping) Thanks to Polo</strong></p>
+<ul>
+                        <li><a href="https://toolbox.google.com/datasetsearch">Google Dataset Search</a></li>
+                    <li><a href="http://www.google.com/publicdata/directory">Google public datasets</a>. Thanks Revant!</li>
+                    <li><a href="https://www.kaggle.com/datasets">Kaggle public datasets</a></li>
+                    <li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a>. Thanks Marcel Gwerder!</li>
+                    <li><a href="http://chriswhong.com/open-data/foil_nyc_taxi/">NYC Taxi data</a> for 2013 (suggested by Chris Wong).
+                        2013 Trip Data (11.0GB). 2013 Fare Data (7.7GB).
+                        <a href="http://nyctaxi.herokuapp.com/">Visualization for a days trip</a>. Thanks Jitesh.</li>
+                    <li><a href="https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public">Large datasets publicly available</a>. Thanks Gopi!</li>
+                    <li><a href="http://gtjourney.gatech.edu/gt-devhub/apis">Georgia Tech's campus data (has APIs)</a>: bus info, directory, building, T-square, room reservation, building facilities usage (e.g., electricity, lights, A/C, etc.), Oscar/course info/registration, etc.</li>
+                    <li><a href="http://webscope.sandbox.yahoo.com/">Yahoo WebScope</a></li>
+                    <li><a href="http://www.data.gov">Data.gov</a>: U.S. Government's open data</li>
+                    <li><a href="https://nces.ed.gov/ipeds/Home/UseTheData">IPEDS data</a>: Postsecondary education data from National Centre for Education Statistics</li>
+                    <li><a href="https://www.bls.gov/data/">Bureau of Labor Statistics data</a></li>
+                    <li><a href="https://movement.uber.com/cities">Uber data</a>: Anonymized data from over 2 billion trips</li>
+                    <li><a href="http://www.freebase.com">Freebase</a></li>
+                    <li><a href="http://www.yelp.com/developers/documentation">Yelp</a></li>
+                    <li><a href="https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/">Microsoft Academic Graph</a></li>
+                    <li><a href="https://developers.google.com/apis-explorer/#p/">Numerous APIs from Google</a> (e.g., Maps, Freebase, YouTube, etc.)</li>
+                    <li><a href="http://www.zillow.com/howto/api/APIOverview.htm">Zillow</a>: real estate listing site</li>
+                    <li>Numerous graph datasets (large and small): <a href="https://snap.stanford.edu/data/index.html">SNAP</a>, <a href="http://konect.uni-koblenz.de/networks/">Konect</a></li>
+                    <li>Movies data: <a href="http://stackoverflow.com/questions/1966503/does-imdb-provide-an-api">IMDB</a></li>
+
+                    <li><a href="https://gist.github.com/entaroadun/1653794">List of lists of datasets for recommendations</a>.<br>
+                        Thanks Jon!</li>
+
+                    <li><a href="http://the.echonest.com/press-release/the-echo-nest-and-columbia-university-announce-million-song-dataset/">Million song dataset by Echo Nest</a>.<br>
+                        It contains not only the basic information of songs (artist, genre, year, length etc), but also some musical features(like tempo, pitch, key, brightness).<br>
+                        Thanks Minwei!
+                    </li>
+
+                    <li><a href="http://www.soccerbase.com/">Dataset about soccer games, players, clubs</a>. <br>
+                        No API, but easy to scrape.<br>
+                        For a soccer player: transfer history, performance, nationality, birth date, etc.<br>
+                        For a soccer club: performance, squad, etc.<br>
+                        Thanks Ding!
+                    </li>
+
+                    <li><a href="http://www.datasciencecentral.com/profiles/blogs/the-free-big-data-sources-everyone-should-know">The Free 'Big Data' Sources Everyone Should Know</a></li>
+
+
+                    <li>
+                        <a href="http://www.quandl.com/">Quandl - a dataset search engine for time-series data</a>.<br>
+                        Thanks Henry!
+                    </li>
+
+
+                    <li>
+                        <a href="http://archive.ics.uci.edu/ml/datasets.html">UCI also has a collection of links to various datasets</a> sorted for various tasks (Classification, Regression, etc)
+                        <br>Thanks Vinodh!
+                    </li>
+
+                    <li>
+                        <a href="http://aws.amazon.com/datasets/">Amazon AWS Public Data Sets</a> (Thanks Jonathan!)
+                    </li>
+
+                    <li>
+                        <a href="http://www.sigkdd.org/kddcup/index.php">KDD Cup</a>: annual competition in data mining, like Kaggle
+                    </li>
+
+                    <li>
+                        Academic domain: <a href="http://datamarket.azure.com/dataset/mrc/microsoftacademic">Microsoft Academic Search</a>, <a href="http://www.informatik.uni-trier.de/~%20ley/db/about/simpleparser/index.html">DBLP</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.retrosheet.org/">Retrosheet: MLB statistics (Game/Play logs)</a>
+                    </li>
+
+                    <li>
+                        <a href="http://sci2s.ugr.es/keel/category.php?cat=clas&order=clas#sub2">Classification datasets</a>
+                        <br>Thanks Amish!
+                    </li>
+
+                    <li>
+                        <a href="http://maps.ngdc.noaa.gov/viewers/geophysics/">Various geophysical datasets</a> for the oceans (magnetism, gravity, seismology, etc).
+                        <br>Thanks Ryan!
+                    </li>
+
+                    <li>
+                        <a href="http://www.pewsocialtrends.org/category/datasets/">Social trends</a> (Thanks Jonathan!)
+                    </li>
+
+                    <li>
+                        <a href="http://www.craftbeeranalytics.com/beer-data.html">Beer data</a> (Thanks Jonathan!).
+                        Website offline :( .
+                        Older version at <a href="https://web.archive.org/web/20141126204138/http://www.craftbeeranalytics.com:80/beer-data.html">web.archive.org</a>
+                    </li>
+
+
+                    <li>
+                        <a href="http://academictorrents.com/">Academic torrents (terabytes)</a> (Thanks Vaibhav!)
+                    </li>
+
+
+                    <li>
+                        <a href="http://developer.nytimes.com/docs/read/article_search_api_v2">Article Search API from the New York Times (all the way back to 1851!)</a> (Thanks Guido!)
+                    </li>
+
+                    <li>
+
+                       <a href="https://engineering.case.edu/eciv/geodatabase/">Civil Engineering Dataset</a> (Thanks Dr. Frost)
+                    </li>
+
+
+                    <li>(Kayak: flight, hotel, car, etc.)</li>
+
+
+                    <li>
+                        <a href="http://research.microsoft.com/en-us/projects/data-science-initiative/default.aspx">Data Science Initiative - Microsoft Research</a> has various datasets and access to tools that can aid in data science research
+                    </li>
+</ul>
+
+<h3 id="resources">Office of Disability Services</h3>
+<p>
+The Georgia Institute of Technology has policies regarding disability accommodation, which are
+administered through The Office of Disability Services: http://disabilityservices.gatech.edu. For students
+with disabilities, please contact this Office to request classroom accommodations.
+</p>
+
+<h3 id="resources">Resources</h3>
+
+<p>Recommended books:</p>
+
+<ul>
+<li><a href="http://amlbook.com/" target="_blank">Learning from data</a>, by Yaser S. Abu-Mostafa</li>
+<li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf" target="_blank">Pattern recognition and machine learning</a>, by Christopher Bishop</li>
+<li><a href="http://www.cs.cmu.edu/~tom/mlbook.html" target="_blank">Machine learning</a>, by Tom Mitchell</li>
+<li><a href="https://www.elsevier.com/books/data-mining-concepts-and-techniques/han/978-0-12-381479-1" target="_blank">Data Mining: Concepts and Techniques</a>, by Jiawei Han, Micheline Kamber, and Jian Pei</li>
+<li><a href="https://web.stanford.edu/~hastie/ElemStatLearn/" target="_blank">The Elements of Statistical Learning</a>, by Trevor Hastie, Robert Tibshirani, and Jerome Friedman</li>
+<li><a href="http://www.deeplearningbook.org/" target="_blank">Deep Learning</a>, by Ian Goodfellow, Yoshua Bengio, and Aaron Courville</li>
+</ul>
+
+<p>Other resources, such as machine learning toolboxes and datasets, will be provided throughout the course.</p>
+</div>
+      
+
+
+    </div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      &copy; 2020 Mahdi Roozbahani
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

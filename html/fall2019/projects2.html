@@ -1,0 +1,425 @@
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) --><!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Mahdi Roozbahani">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="CX4240: Introduction to Computational Data Analysis (2019 Spring) Course Information  Lecture time: Mons and Weds, 4:30pm-5:45pm Location: Klaus 1447 Instructor: M. Mahdi Roozbahani and Chao Zhang Teaching Assistant: Hanjun Dai (hanjundai@gatech.edu) and Wendi Ren (wren44@gatech.edu) Piazza: https://piazza.com/class/jqeo3f7s5vc426  Course Overview This course introduces techniques for computational data analysis, with an emphasis on machine learning algorithms and their applications to real-world data. We will investigate the following question: how to extract useful knowledge from data computationally for decision making and task support?">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://chaozhang.org/course/19s-cx4240/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <link rel="stylesheet" href="css/custom.css">
+<style>
+table { border-collapse:collapse; }
+table thead th { border-bottom: 1px solid #000; }
+table tbody td { border-left: 1px solid #000;border-right: 1px solid #000; }
+table tbody tr { font-size: large; }
+
+</style>
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-96993546-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+  Ankita Das,      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+<!--   <link rel="alternate" href="http://chaozhang.org/index.xml" type="application/rss+xml" title="Chao Zhang"> -->
+<!--   <link rel="feed" href="http://chaozhang.org/index.xml" type="application/rss+xml" title="Chao Zhang"> -->
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://chaozhang.org/course/19s-cx4240/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Mahdi Roozbahani">
+  <meta property="og:url" content="http://chaozhang.org/course/19s-cx4240/">
+  <meta property="og:title" content=" Mahdi Roozbahani">
+  <meta property="og:description" content="CX4240: Introduction to Computational Data Analysis (2019 Spring) Course Information  Lecture time: Mons and Weds, 4:30pm-5:45pm Location: Klaus 1447 Instructors: M. Mahdi Roozbahani and Chao 
+                                           Teaching Assistant: Hanjun Dai (hanjundai@gatech.edu) and Wendi Ren (wren44@gatech.edu) Piazza: https://piazza.com/class/jqeo3f7s5vc426  Course Overview This course introduces techniques for computational data analysis, with an emphasis on machine learning algorithms and their applications to real-world data. We will investigate the following question: how to extract useful knowledge from data computationally for decision making and task support?">
+  <meta property="og:locale" content="en-us">
+  
+    <title> Project Presentation - CS7641/4641</title>
+
+</head>
+
+<p style="font-size: x-large;text-align: center;margin:20px 20px 20px 20px">Each presentation cannot exceed beyond <strong>6 minutes</strong>. If your presentation takes more than 6 minutes, you will be asked to stop the presentation at 6 minute mark. There will be <strong>2 minutes</strong> for Q/A.</p>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+<div>
+</div>
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-0rt6{background-color:#efefef;color:#34696d;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-vqmd{font-weight:bold;background-color:#efefef;color:#34696d;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-vqmd" colspan="3">Group1<br>Location: College of Business 100<br>Date: Nov 21</th>
+  </tr>
+  <tr>
+    <td class="tg-fymr">Team Number</td>
+    <td class="tg-fymr">Project Title</td>
+    <td class="tg-fymr">Team Member</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team21</td>
+    <td class="tg-0pky">
+      <a href="https://github.gatech.edu/pages/sjoplin3/sjoplin3.github.io/" target="_blank">
+        Stock Prediction
+      </a>
+    </td>
+    <td class="tg-0pky">Sean Joplin, Ben Pusey, Emilee Sisson, Kyle Perras, and William Carty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team20</td>
+    <td class="tg-0pky">
+      <a href="https://github.gatech.edu/pages/pgupta321/Euterpe/" target="_blank">Euterpe: The Muse</a>
+    </td>
+    <td class="tg-0pky">Jonathan Lafiandra, Pranshu Gupta, Shrija Mishra, Shubhangi Upasani, Yuli Liu</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team29</td>
+    <td class="tg-0pky">
+      <a href="https://jahinjin.github.io/MLGroup29/" target="_blank">
+        Multi-Label Genre Classification of Movies From Their Posters
+      </a>
+    </td>
+    <td class="tg-0pky">Drew Hatcher, Jahin Ahmed, Nikhil Rajan, Parker Bryant, and Zach Hussin</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team24</td>
+    <td class="tg-0pky">
+      <a href="https://github.gatech.edu/pages/smaddala3/New-York-Taxi-Fare-and-Density-Prediction/" target="_blank">
+        New York Taxi Fare and Density Prediction
+      </a>
+    </td>
+    <td class="tg-0pky">Sravani Maddala</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team22</td>
+    <td class="tg-0pky">
+      <a href="https://github.gatech.edu/pages/knolan6/CS4641-Group22-2048/" target="_blank">
+        2048
+      </a>
+    </td>
+    <td class="tg-0pky">George Jeno, Sonica Sahetiya, Kyle Nolan, and Michael Knudson</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team16</td>
+    <td class="tg-0pky">
+      <a href="https://cs7641-ml-project-fastmri.github.io/slides/" target="_blank">
+        FASTMRI: RECONSTRUCTING HIGH-FIDELITY MRIS FROM PARTIAL DATA
+      </a>
+    </td>
+    <td class="tg-0pky">Anant Joshi, Kanksha Zaveri, Mason Lilly, Sarmishta Velury, Shlok Gujar</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team25</td>
+    <td class="tg-0pky">
+      <a href="https://github.gatech.edu/pages/dahmed7/cs4641-tournament-predictor/" target="_blank">
+        March Madness Team Exit Round Prediction using Supervised Learning
+      </a>
+    </td>
+    <td class="tg-0pky">Dawar Ahmed</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team8</td>
+    <td class="tg-0pky">
+      <a href="https://b-zhao.github.io/ML_patent_study/" target="_blank">
+        ML Patent Study
+      </a>
+    </td>
+    <td class="tg-0pky">Runze Zhang</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team23</td>
+    <td class="tg-0pky">
+      <a href="https://catatonictrepidation.github.io/LyricalSimilarity/" target="_blank">
+         Kindred Lyrics
+      </a>
+    </td>
+    <td class="tg-0pky">Jumshaid Yamin, Andrew Young, William Zheng</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team1</td>
+    <td class="tg-0pky">
+      <a href="https://samuelstentz.github.io/SkinCancerAnalysis/Presentation/presentation.html">
+        7641 Team 1 Presentation
+      </a>
+    </td>
+    <td class="tg-0pky">Samuel Z Stentz</td>
+  </tr>
+  <tr>
+    <td class="tg-0rt6" colspan="3"><span style="font-weight:bold">Group2<br>Location: 109 Classroom Paper Tricentennial</span><br><span style="font-weight:bold">Date: Nov 21</span></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr">Team Number</td>
+    <td class="tg-fymr">Project Title</td>
+    <td class="tg-fymr">Team Member</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team28</td>
+    <td class="tg-0pky">
+      <a href="https://gpantalone.github.io/MLTeam28/" target="_blank">
+        Movie Revenue Analysis and Prediction with Decision Trees and Regression
+      </a>
+    </td>
+    <td class="tg-0pky">Thomas Brownlow, Talha Ahsan, Giuseppe Pantalone, Nabiha Ahsan</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team3</td>
+    <td class="tg-0pky">
+      <a href="https://tarunsaranga.github.io/Tradebook/" target="_blank">
+        Tradebook
+      </a>
+    </td>
+    <td class="tg-0pky">Tharun Saranga, Sai Ragam, Tanishq Rupaal, Rahul Saranjame, Sumanth Bandi</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team16</td>
+    <td class="tg-0pky">
+      <a href="https://sveludhandi.github.io/" target="_blank">
+        Predicting March Madness
+      </a>
+    </td>
+    <td class="tg-0pky">Nikhil Bose, Joel Joseprabu, Ji Won Lee, Sandeep Veludhandi</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team9</td>
+    <td class="tg-0pky">
+      <a href="https://akhilesh.tech/PinningAccents/" target="_blank">
+        Pinning Accents: A Study on Accent Classifiers
+      </a>
+    </td>
+    <td class="tg-0pky">Akanksha, Akhilesh, Kathan, Sheryl</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team13</td>
+    <td class="tg-0pky">
+      <a href="https://vidhur2k.github.io/Earthquake-Building-Damage-Prediction/" target="_blank">
+        Earthquake Building Damage Prediction
+      </a>
+    </td>
+    <td class="tg-0pky">Jordan Rodrigues</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team19</td>
+    <td class="tg-0pky">
+      <a href="https://hyoukjun.github.io/CS7641-Fall2019-team19/" target="_blank">
+        Effective Airbnb Listing Strategy Using Machine Learning
+      </a>
+    </td>
+    <td class="tg-0pky">Hyouk Jun Kwon, Zizhen Wang</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team30</td>
+    <td class="tg-0pky">
+      <a href="https://chasserush.github.io/AirbnbListingPrediction.github.io/" target="_blank"> 
+        Analysis of Supervised Learning Algorithms for Predicting the Price of an Airbnb Listing
+      </a>
+    </td>
+    <td class="tg-0pky">Chasse Rush, Damian Henry, Henry Harris, and Austin Cho</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7641 Team2</td>
+    <td class="tg-0pky">
+      <a href="https://agr505.github.io/MovieRevenuePredictionMachineLearningProject/">
+        Movie Revenue Prediction
+      </a>
+    </td>
+    <td class="tg-0pky">Sanmeshkumar Udhayakumar, Aaron Reich, Tarushree Gandhi, Aastha Agrawal, Prithvi Alva Suresh</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4641 Team15</td>
+    <td class="tg-0pky">
+      <a href="https://github.gatech.edu/pages/bglowniak3/Song-Genre-Prediction/" target="_blank">
+        Song Genre Prediction
+      </a>
+    </td>
+    <td class="tg-0pky">Brian Glowniak, Joey Steffey, Kristen Lee, Ryan Pratt</td>
+  </tr>
+</table>
+
+
+
+<!-- Codes by Quackit.com -->
+<p>&nbsp;</p>
+
+
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
